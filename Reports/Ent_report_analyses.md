@@ -7,9 +7,9 @@ Overall, the values seem fairly well distributed across the possible values, whi
 
 ## 2. Entropy:
 
-Entropy = 3.555 bits per byte.
+Entropy = **3.555 bits per byte**.
 
-3.555 bits per byte is relatively low compared to the maximum entropy, indicating that the data is not perfectly random and exhibits some patterns or repetitive motifs.
+3.555 bits per byte is relatively low compared to the maximum entropy, indicating that the data is not perfectly random and shows some patterns or repetitive motifs.
 
 ## 3. Optimal Compression:
 
