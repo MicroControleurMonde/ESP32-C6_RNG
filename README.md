@@ -58,8 +58,8 @@ Testing tools used:
 - Sample size: **2,0 MB**
 - Total generated: **186'000 values**
 
-- [Dieharder Report - Raw]()
-- [Dieharder Report Analyses]()
+- [Dieharder Report - Raw](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Dieharder_ESP32-C6_RNG_186k.txt)
+- [Dieharder Report Analyses](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Dieharder_Report_ESP32-C6_RNG_186k.md)
   
 # Special tribute:
 
