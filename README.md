@@ -16,6 +16,21 @@ The code uses several hardware devices of the MCU to generate random noise value
 
 The ESP32-C6 RNG generates random integer numbers as **32-bit values**.
 
+                865254577
+                418491403
+                -1447893272
+                1205348786
+                -871015593
+                637462341
+                -725121184
+                -959320840
+                -2018839333
+                996041137
+                ### DEBUG: 10 RNG values have been generated.
+                ### DEBUG: Total time: 0.01 seconds
+                ### DEBUG: Total throughput: 5714.29 bytes/sec
+                ### DEBUG: Total RNG values/sec: 1428.57 values/sec
+
 ## Platform
 
 The code was implemented specifically for an Espressif ESP32-C6 microcontroller on a DFRobot Beetle ESP32-C6 development board [Link](https://www.dfrobot.com/product-2778.html?srsltid=AfmBOoobkIgBWxWnYV6HINjyG3PasT4rkkWpRrTADPIq6GYcCzJKCEQT)
