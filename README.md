@@ -26,7 +26,7 @@ The code was implemented specifically for an Espressif ESP32-C6 microcontroller 
 
         MicroPython v1.25.0-preview.114.gbdda91fe7 on 2024-12-11; ESP32C6 module with ESP32C6
   
-#### Due to some difficulties to flash the card, the tested version is in 'preview'. By dint of fiddling with the registers, I generated some crash dumps...
+Due to some difficulties to flash the card, the tested version is in '*preview*'. By dint of playing with the registers, I generated several crash dumps...
 
 
 ## Performance:
