@@ -1,3 +1,6 @@
+# Analysis of ESP32-C6 Random Number Generator (Ent)
+
+
 ## 1. Fréquences des valeurs :
 
 Globalement, les valeurs semblent assez bien réparties entre les différentes valeurs possibles, 
