@@ -27,8 +27,8 @@ Testing tools used:
 
 # Ent Test Report 
   ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
-- Sample size: **13.4 MB**
-- Total generated: **1'180'000 values**
+- Sample size: **xx.xx MB**
+- Total generated: **x'xxx'xxx values**
 
 - [Ent Report -Raw]()
 - [Ent Report Analyse]()
