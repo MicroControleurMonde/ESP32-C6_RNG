@@ -20,7 +20,7 @@ The ESP32-C6 RNG generates **random integer numbers as 32-bit values**.
 
 ## Platform
 
-The code was implemented specifically for an Espressif ESP32-C6 microcontroller on a DFRobot Beetle ESP32-C6 development board ![Link](https://www.dfrobot.com/product-2778.html?srsltid=AfmBOoobkIgBWxWnYV6HINjyG3PasT4rkkWpRrTADPIq6GYcCzJKCEQT)
+The code was implemented specifically for an Espressif ESP32-C6 microcontroller on a DFRobot Beetle ESP32-C6 development board [Link](https://www.dfrobot.com/product-2778.html?srsltid=AfmBOoobkIgBWxWnYV6HINjyG3PasT4rkkWpRrTADPIq6GYcCzJKCEQT)
 
 ## Performance:
 
