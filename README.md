@@ -6,11 +6,14 @@
 
 A Micro-python library which provides an interface to generate a random number using the ESP32-C6's hardware RNG.
 
-The code uses several hardware devices of the MCU to generate random noise values using additional entropy sources. The SAR ADC and Wi-Fi are exploited to provide quality inputs to the hardware random number generator integrated into the ESP32-C6.
+- The code uses several hardware devices of the MCU to generate random noise values using additional entropy sources. The SAR ADC and Wi-Fi are exploited to provide quality inputs to the hardware random number generator integrated into the ESP32-C6.
 
-- Library :
-- Library test: 
-- Example:
+- The flash indicates ESP32-C6FH4 chip revision v0.1
+- Quad Flat No-lead 32 pins (QFN32)
+
+  - Library :
+  - Library test: 
+  - Example:
 
 **Source**: *`ESP32-S3 Technical Reference Manual V. 1.6 - Chapter 26 Random Number Generator (RNG) - Pages 705/706`* 
 
@@ -21,6 +24,8 @@ The ESP32-C6 RNG generates **random integer numbers as 32-bit values**.
 ## Platform
 
 The code was implemented specifically for an Espressif ESP32-C6 microcontroller on a DFRobot Beetle ESP32-C6 development board [Link](https://www.dfrobot.com/product-2778.html?srsltid=AfmBOoobkIgBWxWnYV6HINjyG3PasT4rkkWpRrTADPIq6GYcCzJKCEQT)
+
+    MicroPython v1.25.0-preview.114.gbdda91fe7 on 2024-12-11; ESP32C6 module with ESP32C6
 
 ## Performance:
 
