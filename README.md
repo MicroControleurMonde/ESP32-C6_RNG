@@ -15,11 +15,11 @@ A Micro-python library which provides an interface to generate a random number u
   - Library test: 
   - Example:
 
-**Source**: *`ESP32-S3 Technical Reference Manual V. 1.6 - Chapter 26 Random Number Generator (RNG) - Pages 705/706`* 
+**Source**: *`ESP32-S3 Technical Reference Manual (v.1.6) - Chapter 26 Random Number Generator (RNG) - Pages 705/706`* 
 
 [Doc. Extract](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/26%20Random%20Number%20Generator%20(RNG).pdf)
 
-The ESP32-C6 RNG generates **random integer numbers as 32-bit values**.
+The ESP32-C6 RNG generates random integer numbers as **32-bit values**.
 
 ## Platform
 
