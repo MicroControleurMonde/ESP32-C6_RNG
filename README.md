@@ -29,16 +29,22 @@ Due to some difficulties to flash the card, the tested version is in "*preview*"
 
 ## Performance:
 
-- Time taken to generate xxxxxxxx values: xx seconds (avg)
-- Throughput: xxxxx  Bytes/sec
-- xxxxx random values / sec.
+- Time taken to generate 186'000 values: **67 seconds** (avg)
+- Throughput: **11031.11 bytes/sec**
+- **2757** random values / sec.
+
+                Note: Performance without saving date on file !
+                8000 values (beyond you will exceed the memory capacities and crash)
+                Total time : 0.15 secondes
+                Throughput : 214765.09 bytes/sec
+                Random values : 53691.27 valeurs/sec
 
 Testing tools used:
 
 * Ent (28.01.2008)
 * Dieharder version 3.31.1
 
-# Ent Test Report 
+## Ent Test Report 
   ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
 - Sample size: **2,0 MB**
 - Total generated: **186'000 values**
@@ -46,7 +52,7 @@ Testing tools used:
 - [Ent Report - Raw](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Ent_ESP32C6_RNG_186k.txt)
 - [Ent Report Analyse](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Ent_report_analyses.md)
 
-# Dieharder Test Report
+## Dieharder Test Report
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
 
 - Sample size: **2,0 MB**
@@ -54,8 +60,6 @@ Testing tools used:
 
 - [Dieharder Report - Raw]()
 - [Dieharder Report Analyses]()
-
-  
   
 # Special tribute:
 
