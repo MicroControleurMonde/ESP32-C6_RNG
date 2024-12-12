@@ -12,7 +12,7 @@ The code uses several hardware devices of the MCU to generate random noise value
 - Library test: 
 - Example:
 
-**Source**: 
+**Source**: ESP32-S3 Technical Reference Manual V. 1.6 - Chapter 26 Random Number Generator (RNG) - Pages 705/706 [Extract]
 
 The ESP32-C6 RNG generates random integer numbers as 32-bit values.
 
