@@ -32,7 +32,6 @@ Testing tools used:
 
 - [Ent Report -Raw]()
 - [Ent Report Analyse]()
-- [CAcert Test Report]()
 
 # Dieharder Test Report
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
