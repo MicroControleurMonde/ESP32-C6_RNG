@@ -1,41 +1,38 @@
+
 # Analysis of ESP32-C6 Random Number Generator (Ent)
 
+## 1. Frequency of Values:
 
-## 1. Fréquences des valeurs :
+Overall, the values seem fairly well distributed across the possible values, which is a good sign for a random number generator, but there is a slight dominance of certain values (notably 1 and 0).
 
-Globalement, les valeurs semblent assez bien réparties entre les différentes valeurs possibles, 
-ce qui est un bon signe pour un générateur de nombres aléatoires, mais il y a une légère dominance de 
-certaines valeurs (notamment 1 et 0).
+## 2. Entropy:
 
+Entropy = 3.555 bits per byte.
 
-## 2. Entropie :
-Entropie = 3.555 bits par byte.
+3.555 bits per byte is relatively low compared to the maximum entropy, indicating that the data is not perfectly random and exhibits some patterns or repetitive motifs.
 
-3.555 bits par byte est assez faible par rapport à l'entropie maximale, indiquant que les données ne sont pas 
-parfaitement aléatoires et présentent des schémas ou des motifs répétitifs.
+## 3. Optimal Compression:
 
-## 3. Compression optimale :
+Compression is generally more efficient when data exhibits repetitive patterns or dependencies. This aligns with the relatively low entropy.
 
-La compression est généralement plus efficace lorsque les données présentent des motifs répétitifs ou
-des relations de dépendance. Cela correspond à l'entropie relativement faible.
+## 4. Chi-Square Test:
 
-## 4. Test du chi carré :
-Chi-square = 43,310,009.41.
-La probabilité qu'un échantillon aléatoire dépasse cette valeur est inférieure à 0.01%.
-Le fait que cette valeur dépasse 99.99% des valeurs aléatoires suggère que les données ne sont pas parfaitement aléatoires,
-ce qui est cohérent avec l'entropie.
+Chi-square = 43,310,009.41.  
+The probability that a random sample exceeds this value is less than 0.01%.  
+The fact that this value exceeds 99.99% of random values suggests that the data is not perfectly random, which is consistent with the entropy result.
 
-## 5. Monte Carlo pour Pi :
-Le test de Monte Carlo pour Pi consiste à utiliser un échantillon aléatoire pour estimer la valeur de Pi. 
-Une valeur de 4.0 (et une erreur de 27.32%) est loin de la valeur correcte de 3.14159....
-Cela indique que les valeurs RNG ne sont pas complètement aléatoires.
+## 5. Monte Carlo for Pi:
 
-## 6. Coefficient de corrélation serial :
-Un coefficient de -0.007 indique que les valeurs sont très légèrement corrélées, 
-mais cette corrélation est extrêmement faible.
+The Monte Carlo test for Pi involves using a random sample to estimate the value of Pi.  
+A value of 4.0 (with an error of 27.32%) is far from the correct value of 3.14159...  
+This indicates that the RNG values are not completely random.
 
-## Conclusion
+## 6. Serial Correlation Coefficient:
 
-Le générateur de nombres aléatoires (RNG) utilisé semble assez bon, mais il montre certains défauts, 
-notamment une entropie relativement faible (indiquant une structure ou des motifs répétitifs) et une moyenne
-des valeurs plus basse que prévu.
+A coefficient of -0.007 indicates that the values are very slightly correlated, but this correlation is extremely weak.
+
+## Conclusion:
+
+The random number generator (RNG) used seems quite good, but it shows some flaws, particularly a relatively low entropy (indicating some structure or repetitive patterns) and an average value lower than expected.
+
+---
