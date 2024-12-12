@@ -44,7 +44,7 @@ Testing tools used:
 - Total generated: **186'000 values**
 
 - [Ent Report - Raw](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Ent_ESP32C6_RNG_186k.txt)
-- [Ent Report Analyse](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Ent_ESP32C6_RNG_186k.txt)
+- [Ent Report Analyse](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Ent_report_analyses.md)
 
 # Dieharder Test Report
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
