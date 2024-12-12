@@ -34,7 +34,7 @@ Due to some difficulties to flash the card, the tested version is in "*preview*"
 - **2757** random values / sec.
 
                 Note: Performance without saving date on file !
-                8000 values (beyond you will exceed the memory capacities and crash)
+                8000 values (beyond you will crash: "MemoryError: memory allocation failed")
                 Total time : 0.15 secondes
                 Throughput : 214765.09 bytes/sec
                 Random values : 53691.27 valeurs/sec
