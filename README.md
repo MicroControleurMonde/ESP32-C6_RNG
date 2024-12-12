@@ -6,9 +6,7 @@
 
 A Micro-python library which provides an interface to generate a random number using the ESP32-C6's hardware RNG.
 
-The code uses several hardware devices of the MCU to generate random noise values using additional entropy sources. The SAR ADC and Wi-Fi are exploited to provide quality inputs to the hardware random number generator integrated into the ESP32-C6 (FH4).
-
-
+The code uses several hardware devices of the MCU to generate random noise values using additional entropy sources. The SAR ADC and Wi-Fi are exploited to provide quality inputs to the hardware random number generator integrated into the ESP32-C6 (FH4). It reads a random value from the **`LPPERI_RNG_DATA_REG`** register.
 
 - Library :
 - Library test: 
@@ -26,7 +24,7 @@ The code was implemented specifically for an Espressif ESP32-C6 microcontroller 
 
         MicroPython v1.25.0-preview.114.gbdda91fe7 on 2024-12-11; ESP32C6 module with ESP32C6
   
-Due to some difficulties to flash the card, the tested version is in '*preview*'. By dint of playing with the registers, I generated several crash dumps...
+Due to some difficulties to flash the card, the tested version is in "*preview*". By dint of playing with the registers, I generated several crash dumps...
 
 
 ## Performance:
@@ -42,8 +40,8 @@ Testing tools used:
 
 # Ent Test Report 
   ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
-- Sample size: **xx.xx MB**
-- Total generated: **x'xxx'xxx values**
+- Sample size: **2,0 MB**
+- Total generated: **186'000 values**
 
 - [Ent Report -Raw]()
 - [Ent Report Analyse]()
@@ -51,8 +49,8 @@ Testing tools used:
 # Dieharder Test Report
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
 
-- Sample size: **xx.xx MB**
-- Total generated: **x'xxx'xxx values**
+- Sample size: **2,0 MB**
+- Total generated: **186'000 values**
 
 - [Dieharder Report - Raw]()
 - [Dieharder Report Analyses]()
