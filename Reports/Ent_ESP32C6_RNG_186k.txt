@@ -1,0 +1,29 @@
+ent -c ESP32-C6_RNG_186k.txt 
+Value Char Occurrences Fraction
+ 10           186000   0.091051
+ 45   -        93069   0.045559
+ 48   0       165633   0.081081
+ 49   1       258021   0.126307
+ 50   2       179133   0.087689
+ 51   3       166731   0.081618
+ 52   4       166347   0.081430
+ 53   5       165113   0.080826
+ 54   6       165777   0.081151
+ 55   7       165952   0.081237
+ 56   8       165008   0.080775
+ 57   9       166028   0.081274
+
+Total:       2042812   1.000000
+
+Entropy = 3.555380 bits per byte.
+
+Optimum compression would reduce the size
+of this 2042812 byte file by 55 percent.
+
+Chi square distribution for 2042812 samples is 43310009.41, and randomly
+would exceed this value less than 0.01 percent of the times.
+
+Arithmetic mean value of data bytes is 48.1130 (127.5 = random).
+Monte Carlo value for Pi is 4.000000000 (error 27.32 percent).
+Serial correlation coefficient is -0.007055 (totally uncorrelated = 0.0).
+
