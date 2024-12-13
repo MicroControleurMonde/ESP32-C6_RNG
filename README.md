@@ -8,7 +8,7 @@ A Micro-python library which provides an interface to generate a random number u
 
 The code uses several hardware devices of the MCU to generate random noise values using additional entropy sources. The SAR ADC and Wi-Fi are exploited to provide quality inputs to the hardware random number generator integrated into the ESP32-C6 (FH4). It reads a random value from the **`LPPERI_RNG_DATA_REG`** register.
 
-- Library : _pending_
+- Library : **esp32_c6_rng.py**
 - Library test: _pending_
 - Example: **Test_ESP32-C6_RNG.py**
 
