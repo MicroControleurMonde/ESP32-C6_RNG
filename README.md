@@ -10,7 +10,9 @@ The code uses several hardware devices of the MCU to generate random noise value
 - Library test: **test_esp32_c6_rng.py**
 - Example: **Test_ESP32-C6_RNG.py**
 
-**Source**: *`ESP32-C6 Technical Reference Manual V.1.0 - Chapter 26 Random Number Generator (RNG) - Pages 705/706`* [Doc. Extract](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/26%20Random%20Number%20Generator%20(RNG).pdf)
+**Source**: *`ESP32-C6 Technical Reference Manual V.1.0 - Chapter 26 Random Number Generator (RNG) - Pages 705/706`* 
+[Doc. Extract](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/26.%20Random%20Number%20Generator%20(RNG).md)
+[PDF](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Misc/26%20Random%20Number%20Generator%20(RNG).pdf)
 
 The ESP32-C6 RNG generates random integer numbers as **32-bit values**.
 
