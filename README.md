@@ -82,7 +82,7 @@ I admit that C code may offer better performance than micro-python... OK.
 
 But physics is physics. And the mathematics associated with physical random phenomena is changeless.
 
-I am quite doubtful (_considering my own tests_)!
+I am quite doubtful (_considering my own tests_) !
 
 # Special tribute:
 
