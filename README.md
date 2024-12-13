@@ -69,7 +69,7 @@ Testing tools used:
 
 - [Dieharder Report - Raw](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Dieharder_ESP32-C6_RNG_186k.txt)
 - [Dieharder Report Analyses](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Dieharder_Report_ESP32-C6_RNG_186k.md)
-
+---
 ## Espressif statement:
 
 Page 705, at the bottom of the page:
@@ -78,7 +78,11 @@ Page 705, at the bottom of the page:
     high-speed ADC being enabled, has been tested using the Dieharder Random Number Testsuite (version
     3.31.1). The sample passed all tests."
 
-I am doubtful (_considering my own tests_)!
+I admit that C code may offer better performance than micro-python... OK. 
+
+But physics is physics. And the mathematics associated with physical random phenomena is changeless.
+
+I am quite doubtful (_considering my own tests_)!
 
 # Special tribute:
 
