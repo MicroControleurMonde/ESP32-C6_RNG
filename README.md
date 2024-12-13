@@ -26,10 +26,6 @@ The ESP32-C6 RNG generates random integer numbers as **32-bit values**.
                 -959320840
                 -2018839333
                 996041137
-                ### DEBUG: 10 RNG values have been generated.
-                ### DEBUG: Total time: 0.01 seconds
-                ### DEBUG: Total throughput: 5714.29 bytes/sec
-                ### DEBUG: Total RNG values/sec: 1428.57 values/sec
 
 ## Platform
 
