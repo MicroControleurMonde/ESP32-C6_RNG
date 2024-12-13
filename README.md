@@ -69,7 +69,17 @@ Testing tools used:
 
 - [Dieharder Report - Raw](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Dieharder_ESP32-C6_RNG_186k.txt)
 - [Dieharder Report Analyses](https://github.com/MicroControleurMonde/ESP32-C6_RNG/blob/main/Reports/Dieharder_Report_ESP32-C6_RNG_186k.md)
-  
+
+## Espressif statement:
+
+Page 705, at the bottom of the page:
+
+    "A data sample of 2 GB, which is read from the random number generator at a rate of 5 MHz with only the
+    high-speed ADC being enabled, has been tested using the Dieharder Random Number Testsuite (version
+    3.31.1). The sample passed all tests."
+
+I am doubtful (_considering my own tests_)!
+
 # Special tribute:
 
 ## Passing of John Walker
